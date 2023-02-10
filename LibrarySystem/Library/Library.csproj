@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="512px-Closed_Book_Icon.svg.png" />
+    <None Remove="letter-t.png" />
+    <None Remove="wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\512px-Closed_Book_Icon.svg.png" />
+    <Resource Include="Images\letter-t.png" />
+    <Resource Include="Images\wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+
+</Project>
